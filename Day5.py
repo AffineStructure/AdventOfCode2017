@@ -1,8 +1,8 @@
 import os
 
-os.chdir(r'C:\Users\kyle.rasmussen\Downloads')
+os.chdir(r'C:\Users\kyle.rasmussen\Dropbox\Programming\AdventOfCode2017')
 
-with open('inputer.txt') as f:
+with open('day5.txt') as f:
     file = f.read()
 
 data = list(map(int, file.split()))
